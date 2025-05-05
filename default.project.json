@@ -1,0 +1,83 @@
+{
+  "name": "roblox-ts-game",
+  "globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "TS": {
+        "$path": "out/server",
+        "PackageLink": {
+          "$className": "PackageLink",
+          "$properties": {
+            "PackageId": "rbxassetid://14718161477",
+            "AutoUpdate": true
+          }
+        }
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "rbxts_include": {
+        "$path": "include",
+        "PackageLink": {
+          "$className": "PackageLink",
+          "$properties": {
+            "PackageId": "rbxassetid://14718193322",
+            "AutoUpdate": true
+          }
+        },
+        "node_modules": {
+          "$className": "Folder",
+          "@rbxts": {
+            "$path": "node_modules/@rbxts"
+          }
+        }
+      },
+      "TS": {
+        "$path": "out/shared",
+        "PackageLink": {
+          "$className": "PackageLink",
+          "$properties": {
+            "PackageId": "rbxassetid://14718163988",
+            "AutoUpdate": true
+          }
+        }
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "TS": {
+          "$path": "out/client",
+          "PackageLink": {
+            "$className": "PackageLink",
+            "$properties": {
+              "PackageId": "rbxassetid://14718166952",
+              "AutoUpdate": true
+            }
+          }
+        }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
